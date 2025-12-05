@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/images/1712548171056.jpeg);
+}
+
+.product-table {
+    border: none;
+    background-color: #c09dc3;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.product-content {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product-info {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.whatsapp-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.whatsapp-icon img {
+    width: 50px;
+    cursor: pointer;
+}
+td{
+    width: 500px;
+}

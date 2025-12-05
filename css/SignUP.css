@@ -1,0 +1,50 @@
+body {
+    background-image: url("/images/1712548171056.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+table {
+    background-color: lightgray;
+    margin: 60px auto;
+    height: 650px;
+    width: 350px;
+    border-radius: 70px;
+    text-align: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: inline-block;
+    width: 80%;
+    height: 25px;
+    background-image: url(/images/img/6.png);
+    background-repeat: no-repeat;
+    border: 0;
+    outline: 0;
+    background-color: lightgray;
+    border-bottom: 2px solid black;
+}
+#su {
+    background-color: plum;
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 30%;
+    font-size: medium;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 1px;
+    text-decoration: none; 
+    color: black; 
+}
+
+#su:hover {
+    color: blue;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus{
+border-bottom-color:lightblue ;
+}
