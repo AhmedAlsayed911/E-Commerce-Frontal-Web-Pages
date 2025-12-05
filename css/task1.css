@@ -52,6 +52,6 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-    border-bottom-color: lightblue ;
+    border-bottom-color: blueviolet ;
 
 }
